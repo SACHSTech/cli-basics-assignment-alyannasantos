@@ -1,1 +1,30 @@
-
+GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+ pwd
+/home/runner/cli-basics-assignment-alyannasantos
+ mkdir CLIBasicsFolder
+ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+ cd CLIBasicsFolder
+ pwd
+/home/runner/cli-basics-assignment-alyannasantos/CLIBasicsFolder
+ touch myfile.txt
+ echo Alyanna Santos ICS4U1b >> myfile.txt
+ cat myfile.txt
+Alyanna Santos ICS4U1b
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ mv myfile2.txt ~/myfile2.txt
+ ls ~
+cli-basics-assignment-alyannasantos  myfile2.txt  _test_runner.py
+ pwd
+/home/runner/cli-basics-assignment-alyannasantos/CLIBasicsFolder
+ cd ..
+ pwd
+/home/runner/cli-basics-assignment-alyannasantos
+ rm CLIBasicsFolder/myfile.txt
+ rm -r  CLIBasicsFolder
+ ls ~
+cli-basics-assignment-alyannasantos  myfile2.txt  _test_runner.py
+ 
